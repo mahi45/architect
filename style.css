@@ -217,7 +217,7 @@ footer p{
 /* Footer CSS end */
 
 /* Responsive CSS start */
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 500px) and (max-width: 575px){
     .navbar-container .title {
         font-size: 35px;
     }   
@@ -233,7 +233,7 @@ footer p{
         padding-bottom: 10px;
     }
     .brand-container .description {
-        padding-bottom: 28px;
+        padding: 0 25px 28px;
         line-height: 20px;
         font-size: 14px;
         width: 100%;
@@ -246,6 +246,30 @@ footer p{
     }
     .feature-top {
         padding: 50px 15px;
+    }
+    .feature-top-left {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 20px;
+    }
+    .primary {
+        font-size: 15px!important;
+        margin-top: -15px;
+    }
+    .facts .title {
+        font-size: 35px;
+    }
+    .sponsor-details h3 {
+        font-size: 30px;
+    }
+    footer {
+        margin: 0 30px 80px;
+    }
+    footer p {
+        font-size: 12px;
+        padding: 10px;
+        line-height: 16px;
     }
     .feature-top-right .title {
         font-size: 20px;
@@ -272,9 +296,15 @@ footer p{
         width: 100%;
         padding-right: 0;
     }
+    .feature-bottom-left .title{
+        border: 0;
+    }
     .feature-bottom-left .description {
         font-size: 16px;
         line-height: 24px;
+    }
+    .feature-bottom-right img {
+        margin-top: 35px;
     }
     .facts {
         margin: 30px 30px;
@@ -313,7 +343,398 @@ footer p{
         justify-items: stretch;
     }
     footer {
-        margin: 0 50px 100px;
+        margin: 0 50px 80px;
+    }
+    footer p {  
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .navbar-container .title {
+        font-size: 35px;
+    }   
+    .items {
+        display: block;
+    }
+    .brand-container{
+        width: 100%;
+    }
+    .brand-container .title{
+        font-size: 35px;
+        margin-top: -40px;
+        padding-bottom: 10px;
+    }
+    .brand-container .description {
+        padding: 0 25px 28px;
+        line-height: 20px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .banner-container img {
+        padding: 40px 20px;
+    }
+    .feature, .sponsor {
+        padding: 0;
+    }
+    .feature-top {
+        padding: 50px 15px;
+    }
+
+
+    .feature-top-left {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 20px;
+    }
+    .primary {
+        font-size: 15px!important;
+        margin-top: -15px;
+    }
+    .facts .title {
+        font-size: 35px;
+    }
+    .sponsor-details h3 {
+        font-size: 30px;
+    }
+    footer {
+        margin: 0 30px 80px;
+    }
+    footer p {
+        font-size: 12px;
+        padding: 10px;
+        line-height: 16px;
+    }
+    .feature-top-right .title {
+        font-size: 20px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        color: #727272;
+    }
+    .feature-top-right .description {
+        width: 100%;
+    }
+    .feature-top-left{
+        margin-right: 25px;
+    }
+    .primary {
+        padding: 15px 17px;
+        font-size: 20px;
+    }
+    .feature-bottom {
+        padding: 0 18px;
+        display: block;
+        text-align: center;
+    }
+    .feature-bottom-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .feature-bottom-left .title{
+        border: 0;
+    }
+    .feature-bottom-left .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .feature-bottom-right img {
+        margin-top: 35px;
+    }
+    .facts {
+        margin: 30px 30px;
+    }
+    .facts .title, .facts .description{
+        text-align: center;
+        width: 100%;
+    }
+    .facts .description{
+        margin-bottom: 50px;
+    }
+    .individual-facts {
+        display: grid;
+        text-align: center;
+        gap: 28px;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsor-details {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        padding: 15px 50px 0;
+        line-height: 25px;
+    }
+    .sponsor-img img{
+        width: 100px;
+    }
+    .sponsor-img {
+        display: grid;
+        margin: 25px auto 50px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        justify-items: stretch;
+    }
+    footer {
+        margin: 0 50px 80px;
+    }
+    footer p {  
+        font-size: 13px;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .navbar-container .title {
+        font-size: 35px;
+    }
+    .brand-container{
+        width: 100%;
+    }
+    .brand-container .title{
+        font-size: 45px;
+        margin-top: -40px;
+        padding-bottom: 10px;
+    }
+    .brand-container .description {
+        padding: 0 70px 28px;
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .banner-container img {
+        padding: 40px 20px;
+    }
+    .feature, .sponsor {
+        padding: 0;
+    }
+    .feature-top {
+        padding: 50px 85px;
+    }
+    .feature-top-left {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 20px;
+    }
+    .primary {
+        font-size: 15px!important;
+        margin-top: -15px;
+    }
+    .facts .title {
+        font-size: 35px;
+    }
+    .sponsor-details h3 {
+        font-size: 30px;
+    }
+    footer {
+        margin: 0 30px 80px;
+    }
+    footer p {
+        font-size: 12px;
+        padding: 10px;
+        line-height: 16px;
+    }
+    .feature-top-right .title {
+        font-size: 20px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        color: #727272;
+    }
+    .feature-top-right .description {
+        width: 100%;
+    }
+    .feature-top-left{
+        margin-right: 25px;
+    }
+    .primary {
+        padding: 15px 17px;
+        font-size: 20px;
+    }
+    .feature-bottom {
+        padding: 0 80px;
+        display: block;
+        text-align: center;
+    }
+    .feature-bottom-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .feature-bottom-left .title{
+        border: 0;
+    }
+    .feature-bottom-left .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .feature-bottom-right img {
+        margin-top: 35px;
+    }
+    .facts {
+        margin: 30px 30px;
+    }
+    .facts .title, .facts .description {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto 10px;
+    }
+    .facts .description{
+        margin-bottom: 50px;
+    }
+    .individual-facts {
+        display: grid;
+        text-align: center;
+        gap: 28px;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .sponsor-details {
+        text-align: center;
+        margin: 0 auto;
+        width: 55%;
+        padding: 15px 50px 0;
+        line-height: 20px;
+    }
+    .sponsor-img img{
+        width: 100px;
+    }
+    .sponsor-img {
+        display: grid;
+        margin: 25px auto 50px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        justify-items: stretch;
+    }
+    footer {
+        margin: 0 50px 80px;
+    }
+    footer p {  
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .navbar-container .title {
+        font-size: 35px;
+    }
+    .brand-container{
+        width: 100%;
+    }
+    .brand-container .title{
+        font-size: 45px;
+        margin-top: -40px;
+        padding-bottom: 10px;
+    }
+    .brand-container .description {
+        padding: 0 130px 35px;
+    }
+    .banner-container img {
+        padding: 40px 100px;
+    }
+    .feature, .sponsor {
+        padding: 0;
+    }
+    .feature-top {
+        padding: 50px 85px;
+    }
+    .feature-top-left {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 20px;
+    }
+    .primary {
+        font-size: 15px!important;
+        margin-top: -15px;
+    }
+    .facts .title {
+        font-size: 35px;
+    }
+    .sponsor-details h3 {
+        font-size: 30px;
+    }
+    footer {
+        margin: 0 30px 80px;
+    }
+    footer p {
+        font-size: 12px;
+        padding: 10px;
+        line-height: 16px;
+    }
+    .feature-top-right .title {
+        font-size: 35px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        color: #727272;
+    }
+    .feature-top-right .description {
+        width: 100%;
+    }
+    .feature-top-left{
+        margin-right: 25px;
+    }
+    .primary {
+        padding: 15px 17px;
+        font-size: 20px;
+    }
+    .feature-bottom {
+        padding: 0 80px;
+        display: block;
+        text-align: center;
+    }
+    .feature-bottom-left {
+        width: 100%;
+        padding-right: 0;
+    }
+    .feature-bottom-left .title{
+        border: 0;
+    }
+    .feature-bottom-left .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .feature-bottom-right img {
+        margin-top: 35px;
+    }
+    .facts {
+        margin: 30px 30px;
+    }
+    .facts .title, .facts .description {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto 10px;
+    }
+    .facts .description{
+        margin-bottom: 50px;
+    }
+    .individual-facts {
+        display: grid;
+        text-align: center;
+        gap: 28px;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .sponsor-details {
+        text-align: center;
+        margin: 0 auto;
+        width: 55%;
+        padding: 15px 50px 0;
+        line-height: 20px;
+    }
+    .sponsor-img img{
+        width: 100px;
+    }
+    .sponsor-img {
+        display: grid;
+        margin: 25px auto 50px;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        justify-items: stretch;
+    }
+    footer {
+        margin: 0 50px 80px;
     }
     footer p {  
         font-size: 13px;
