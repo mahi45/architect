@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+.primary{
+    background-color: #FF900E;
+    border: none;
+    padding: 21px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+/* Header CSS start */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.navbar-container .title{
+    font-size: 45px;
+}
+.items{
+    display: flex;
+}
+.item{
+    font-size: 18px;
+    margin-right: 40px;
+}
+/* Brand CSS start */
+.brand-container{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 102px;
+}
+.brand-container .title{
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.brand-container .description{
+    padding-bottom: 35px;
+}
+
+/* Brand CSS end */
+.banner-container img{
+    padding: 50px 240px;
+    width: 100%;
+}
+/* Header CSS end */
