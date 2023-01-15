@@ -21,6 +21,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    align-items: center;
 }
 .navbar-container .title{
     font-size: 45px;
@@ -42,10 +43,11 @@ header{
 .brand-container .title{
     font-size: 55px;
     font-weight: 700;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
 }
 .brand-container .description{
-    padding-bottom: 35px;
+    padding-bottom: 28px;
+    line-height: 25px;
 }
 
 /* Brand CSS end */
@@ -54,3 +56,162 @@ header{
     width: 100%;
 }
 /* Header CSS end */
+/* Feature CSS start */
+.feature{
+    padding: 0 130px;
+}
+.feature-top{
+    display: flex;
+    padding: 85px 200px 130px;
+    align-items: center;
+}
+.feature-top-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin-right: 50px;
+}
+.feature-top-left img{
+    width: 100%;
+}
+.feature-top-right{
+width: 71%!important;
+}
+.feature-top-right .title{
+    font-size: 35px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    color: #727272;
+}
+.feature-top-right .first{
+    color: #131313;
+    font-weight: bold;
+}
+.feature-top-right .second{
+    color: #FF900E;
+    font-weight: bold;
+}
+
+.feature-top-right .description {
+    padding-bottom: 30px;
+    line-height: 20px;
+    font-size: 14px;
+    width: 123%;
+    color: #727272;
+}
+.feature-bottom{
+    display: flex;
+    padding: 0 110px;
+    align-items: top;
+}
+.feature-bottom-left {
+    width: 68%;
+    padding-right: 50px;
+}
+.feature-bottom-left .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+.feature-bottom-left .description {
+    color: #727272;
+    font-size: 13px;
+    line-height: 20px;
+}
+.feature-bottom-left-feature{
+    margin-top: 30px;
+} 
+.feature1, .feature2, .feature3, .feature4{
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.feature1 .title, .feature2 .title, .feature3 .title, .feature4 .title{
+    font-size: 20px;
+    border-left: 0!important;
+    padding-left: 0;
+}
+.feature1 .description, .feature2.description, .feature3.description, .feature4.description {
+    color: #727272;
+    font-size: 13px;
+}
+.experience{
+    background-color: #FF900E;
+}
+.experience p{
+    text-align: center;
+    width: 100%;
+}
+.feature-bottom-right img{
+    width: 100%;
+}
+/* Feature CSS end */
+/* Facts CSS Start */
+.facts{
+    margin:100px 240px;
+}
+.facts .title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.facts .description{
+    width: 52%;
+    margin-bottom: 100px;
+    line-height: 22px;
+}
+.individual-facts{
+    display: flex;
+    text-align: center;
+    gap: 70px;
+    justify-content: center;
+}
+.individual-fact{
+    border: 1px solid #FF900E;
+    padding: 20px;
+    border-radius: 8px;
+}
+.individual-fact p{
+    font-size: 13px;
+}
+.individual-fact img{
+    margin-bottom: 10px;
+}
+.individual-fact h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+/* Facts CSS End */
+/* Sponsor CSS start */
+.sponsor{
+    padding: 0 130px;
+}
+.sponsor-details {
+    text-align: center;
+    margin: 0 auto 50px;
+    width: 45%;
+}
+.sponsor-details h3{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+/* Sponsor CSS End */
+/* Footer CSS start */
+footer {
+    background: rgba(255, 144, 14, 0.1);
+    margin: 0 130px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer p{
+    padding: 30px 0;
+}
+/* Footer CSS end */
